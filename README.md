@@ -9,7 +9,7 @@
 | Таблиця | Опис |
 |---|---|
 | `events` | Сирі дані подій користувачів |
-| `events_clean` | Очищені дані після |
+| `events_clean` | Очищені дані  |
 
 **Джерело:** [E-commerce Events History in Cosmetics Shop — Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop/code)
 
@@ -21,7 +21,7 @@
 
 ## 🧹 Підготовка даних
 
-### Дедуплікація
+### Очищення данних
 Знайдено та видалено **185,220 дублікатів** по ключах `user_id`, `event_time`, `product_id`, `event_type`.
 
 ```sql
